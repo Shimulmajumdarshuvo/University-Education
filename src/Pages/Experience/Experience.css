@@ -1,0 +1,23 @@
+.MianExperience {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 85%;
+    margin: 0 auto;
+}
+
+.subExperience img {
+    width: 100%;
+
+}
+
+.subExperience h2 {
+
+    padding-top: 60px;
+    padding-left: 55px;
+}
+
+.subExperience p {
+    margin: 0;
+
+    padding-left: 55px;
+}

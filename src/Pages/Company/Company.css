@@ -1,0 +1,18 @@
+.companyHead {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    width: 85%;
+    margin: 30px auto;
+
+}
+
+.subCompany h1 {
+    color: rgb(42, 240, 230);
+
+}
+
+.subImg img {
+    width: 80%;
+    height: 70%;
+}

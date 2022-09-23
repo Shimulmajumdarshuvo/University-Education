@@ -1,0 +1,29 @@
+.contact {
+    background-color: rgb(46, 171, 243);
+}
+
+.subContact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 14px;
+    width: 85%;
+    margin: 10px auto;
+}
+
+.contactTitle {
+    color: rgba(206, 235, 241, 0.986);
+    padding: 15px;
+}
+
+.input {
+    border: none;
+    margin-top: 70px;
+    padding: 10px;
+}
+
+.butn {
+    padding: 8px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(46, 171, 243);
+}

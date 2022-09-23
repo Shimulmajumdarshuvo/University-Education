@@ -1,0 +1,16 @@
+.BannerHead {
+    background-image: url('https://media.istockphoto.com/photos/university-of-michigan-law-school-quadrangle-picture-id157317450?k=20&m=157317450&s=170667a&w=0&h=dT4Ka8es_Wi1E_PWjdR6eDhxsL1zeyZW91JNnn7OT_U=');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.banner {
+    color: aliceblue;
+    padding-top: 150px;
+    text-align: center;
+    align-items: center;
+
+}

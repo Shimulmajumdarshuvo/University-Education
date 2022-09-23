@@ -1,0 +1,36 @@
+.serviceTitle {
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.serviceTitle h1 {
+    color: aquamarine;
+    margin: 0;
+
+}
+
+.service {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 13px;
+    width: 85%;
+    margin: 5px auto;
+}
+
+
+.ServiceBtn {
+    border: none;
+    color: aqua;
+    background-color: white;
+    padding: 6px 0;
+}
+
+.subService span {
+    font-size: 34px;
+    color: darkcyan;
+}
+
+.subService h4 {
+    margin: 0;
+    font-size: 18px;
+}
