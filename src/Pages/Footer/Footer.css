@@ -1,13 +1,24 @@
+.footer {
+    width: 85%;
+    margin: 15px auto;
+
+}
+
 .mainFooter {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 13px;
-    width: 85%;
-    margin: 15px auto;
+
 }
 
 .mainFooter h2 {
     color: rgb(46, 171, 243);
+}
+
+.footerLink {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
 }
 
 .mainFooter p {
@@ -17,4 +28,31 @@
 
 .footerLink p {
     color: rgb(46, 171, 243);
+}
+
+.footerEnd {
+    text-align: center;
+    padding: 9px 0;
+}
+
+
+
+/* Responsive css part */
+
+@media only screen and (max-width:860px) {
+    .mainFooter {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+@media only screen and (max-width:560px) {
+    .mainFooter {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
 }

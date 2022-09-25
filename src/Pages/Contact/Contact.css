@@ -27,3 +27,27 @@
     color: white;
     background-color: rgb(46, 171, 243);
 }
+
+
+/*  responsive part */
+
+@media only screen and (max-width:760px) {
+    .subContact {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .input {
+        border: none;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .inputContact {
+        padding-bottom: 15px;
+    }
+
+
+
+}

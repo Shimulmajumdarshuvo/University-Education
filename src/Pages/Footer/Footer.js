@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div>
+        <div className='footer'>
             <div className='mainFooter'>
                 <div>
                     <h2>University</h2>
@@ -11,10 +11,21 @@ const Footer = () => {
                 </div>
                 <div className='footerLink'>
                     <h3>Quick Link</h3>
-                    <p>Home</p>
-                    <p>About Us</p>
-                    <p>Course</p>
-                    <p>Pages</p>
+                    <br />
+                    <div>
+
+                        <p>Home</p>
+                        <p>About Us</p>
+                        <p>Course</p>
+                        <p>Pages</p>
+                    </div>
+                    <div>
+
+                        <p>Home</p>
+                        <p>About Us</p>
+                        <p>Course</p>
+                        <p>Pages</p>
+                    </div>
                 </div>
 
                 <div>
@@ -30,6 +41,11 @@ const Footer = () => {
                     <p>education.bd@gmail.com</p>
                 </div>
 
+            </div>
+            <div>
+                <h4 className='footerEnd'>
+                    Copyright ©2022 All right reserved | This Template is made with by ❤️ Shimul.
+                </h4>
             </div>
         </div>
     );

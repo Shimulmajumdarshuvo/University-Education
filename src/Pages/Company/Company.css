@@ -16,3 +16,15 @@
     width: 80%;
     height: 70%;
 }
+
+
+/*  responsive part */
+
+@media only screen and (max-width:760px) {
+    .companyHead {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}

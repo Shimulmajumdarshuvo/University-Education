@@ -5,6 +5,7 @@
     margin: 0 auto;
 }
 
+
 .subExperience img {
     width: 100%;
 
@@ -20,4 +21,15 @@
     margin: 0;
 
     padding-left: 55px;
+}
+
+/* Experience responsive part */
+
+@media only screen and (max-width:760px) {
+    .MianExperience {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
 }

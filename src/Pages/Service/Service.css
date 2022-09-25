@@ -34,3 +34,23 @@
     margin: 0;
     font-size: 18px;
 }
+
+/* Responsive css part */
+
+@media only screen and (max-width:860px) {
+    .service {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+@media only screen and (max-width:560px) {
+    .service {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}
