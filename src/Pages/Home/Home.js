@@ -4,6 +4,7 @@ import Company from '../Company/Company';
 import Contact from '../Contact/Contact';
 import Experience from '../Experience/Experience';
 import Footer from '../Footer/Footer';
+import Information from '../Information/Information';
 import Service from '../Service/Service';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <Company></Company>
             <Service></Service>
             <Experience></Experience>
+            <Information></Information>
             <Contact></Contact>
             <Footer></Footer>
         </div>

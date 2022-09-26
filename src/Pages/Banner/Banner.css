@@ -5,12 +5,20 @@
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+
 }
 
-.banner {
-    color: aliceblue;
-    padding-top: 150px;
-    text-align: center;
-    align-items: center;
 
+
+.subBanner {
+    display: flex;
+
+}
+
+.subBanner h3 {
+    margin-right: 9px;
 }
